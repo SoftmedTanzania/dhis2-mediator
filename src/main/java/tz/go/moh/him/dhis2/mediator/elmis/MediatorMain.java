@@ -89,6 +89,10 @@ public class MediatorMain {
         }
 
         MediatorConfig config = loadConfig(configPath);
+
+        //TODO this should be removed in production environments it is unsafe
+        config.setSSLContext(new MediatorConfig.SSLContext(true));
+
         final MediatorServer server = new MediatorServer(system, config);
 
         //setup shutdown hook
