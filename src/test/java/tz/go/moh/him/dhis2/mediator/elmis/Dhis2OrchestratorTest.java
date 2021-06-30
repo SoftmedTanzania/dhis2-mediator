@@ -24,6 +24,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Properties;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class Dhis2OrchestratorTest {
@@ -103,6 +104,7 @@ public class Dhis2OrchestratorTest {
 
     @Test
     public void testDhis2WarningResponsesMediatorHTTPRequest() throws Exception {
+        assertNotNull(system);
         system.actorOf(Props.create(CustomMockLauncher.class, MockDestination.class, "WARNING", "http-connector"), configuration.getName());
         new JavaTestKit(system) {{
             InputStream stream = Dhis2OrchestratorTest.class.getClassLoader().getResourceAsStream("elmis_request.json");
@@ -143,6 +145,7 @@ public class Dhis2OrchestratorTest {
 
     @Test
     public void testDhis2SuccessResponsesMediatorHTTPRequest() throws Exception {
+        assertNotNull(system);
         system.actorOf(Props.create(CustomMockLauncher.class, MockDestination.class, "SUCCESS", "http-connector"), configuration.getName());
         new JavaTestKit(system) {{
             InputStream stream = Dhis2OrchestratorTest.class.getClassLoader().getResourceAsStream("elmis_request.json");
