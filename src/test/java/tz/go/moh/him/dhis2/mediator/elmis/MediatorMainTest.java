@@ -26,7 +26,7 @@ public class MediatorMainTest {
 
         Assert.assertEquals("localhost", mediatorConfig.getServerHost());
         Assert.assertEquals(Integer.valueOf(3031), mediatorConfig.getServerPort());
-        Assert.assertEquals(Integer.valueOf(60000), mediatorConfig.getRootTimeout());
+        Assert.assertEquals(Integer.valueOf(600000), mediatorConfig.getRootTimeout());
         Assert.assertTrue(mediatorConfig.getHeartsbeatEnabled());
     }
 
