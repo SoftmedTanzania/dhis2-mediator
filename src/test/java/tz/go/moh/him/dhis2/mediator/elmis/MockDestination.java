@@ -65,6 +65,6 @@ public class MockDestination extends MockHTTPConnector {
      */
     @Override
     public void executeOnReceive(MediatorHTTPRequest msg) {
-
+        //Not Required for this scenario since the mediator only handles processing of the responses
     }
 }
