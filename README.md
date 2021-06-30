@@ -1,6 +1,7 @@
 # dhis2-mediator-elmis
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eb9fc4b8ee9849d5bd7c6a76bdb33995)](https://app.codacy.com/gh/SoftmedTanzania/dhis2-mediator-elmis?utm_source=github.com&utm_medium=referral&utm_content=SoftmedTanzania/dhis2-mediator-elmis&utm_campaign=Badge_Grade_Settings)
 [![Java CI Badge](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![Coverage Status](https://coveralls.io/repos/github/SoftmedTanzania/dhis2-mediator-elmis/badge.svg?branch=development)](https://coveralls.io/github/SoftmedTanzania/dhis2-mediator-elmis?branch=development)
 
