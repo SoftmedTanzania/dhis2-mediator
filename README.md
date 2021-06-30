@@ -1,8 +1,8 @@
 # dhis2-mediator-elmis
 
 
-[![Java CI Badge](https://github.com/SoftmedTanzania/thscp-mediator-elmis/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/SoftmedTanzania/thscp-mediator-elmis/actions?query=workflow%3A%22Java+CI+with+Maven%22)
-[![Coverage Status](https://coveralls.io/repos/github/SoftmedTanzania/thscp-mediator-elmis/badge.svg?branch=development)](https://coveralls.io/github/SoftmedTanzania/thscp-mediator-elmis?branch=development)
+[![Java CI Badge](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/actions?query=workflow%3A%22Java+CI+with+Maven%22)
+[![Coverage Status](https://coveralls.io/repos/github/SoftmedTanzania/dhis2-mediator-elmis/badge.svg?branch=development)](https://coveralls.io/github/SoftmedTanzania/dhis2-mediator-elmis?branch=development)
 
 An [OpenHIM](http://openhim.org/) mediator for handling system integration between elMIS and Tanzania Health Supply Chain Mediator.
 
