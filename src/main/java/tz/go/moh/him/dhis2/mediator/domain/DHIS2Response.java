@@ -1,4 +1,4 @@
-package tz.go.moh.him.dhis2.mediator.elmis.domain;
+package tz.go.moh.him.dhis2.mediator.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

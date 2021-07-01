@@ -1,4 +1,4 @@
-package tz.go.moh.him.dhis2.mediator.elmis;
+package tz.go.moh.him.dhis2.mediator;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSelection;
@@ -14,7 +14,7 @@ import org.openhim.mediator.engine.MediatorConfig;
 import org.openhim.mediator.engine.messages.FinishRequest;
 import org.openhim.mediator.engine.messages.MediatorHTTPRequest;
 import org.openhim.mediator.engine.messages.MediatorHTTPResponse;
-import tz.go.moh.him.dhis2.mediator.elmis.domain.DHIS2Response;
+import tz.go.moh.him.dhis2.mediator.domain.DHIS2Response;
 import tz.go.moh.him.mediator.core.serialization.JsonSerializer;
 
 import java.nio.charset.StandardCharsets;

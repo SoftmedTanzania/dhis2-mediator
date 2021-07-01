@@ -1,4 +1,4 @@
-package tz.go.moh.him.dhis2.mediator.elmis;
+package tz.go.moh.him.dhis2.mediator;
 
 import org.apache.commons.io.IOUtils;
 import org.openhim.mediator.engine.messages.MediatorHTTPRequest;
