@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tz.go.moh.him</groupId>
-    <artifactId>dhis2-mediator-elmis</artifactId>
+    <artifactId>dhis2-mediator</artifactId>
     <version>0.1.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,7 +66,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>tz.go.moh.him.dhis2.mediator.elmis.MediatorMain</mainClass>
+                                    <mainClass>tz.go.moh.him.dhis2.mediator.MediatorMain</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>

@@ -1,4 +1,4 @@
-package tz.go.moh.him.dhis2.mediator.elmis;
+package tz.go.moh.him.dhis2.mediator;
 
 import akka.actor.ActorSystem;
 import akka.event.Logging;
