@@ -5,7 +5,7 @@
 [![Java CI Badge](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/SoftmedTanzania/dhis2-mediator-elmis/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![Coverage Status](https://coveralls.io/repos/github/SoftmedTanzania/dhis2-mediator-elmis/badge.svg?branch=development)](https://coveralls.io/github/SoftmedTanzania/dhis2-mediator-elmis?branch=development)
 
-An [OpenHIM](http://openhim.org/) mediator for handling system integration between elMIS and Tanzania Health Supply Chain Mediator.
+An [OpenHIM](http://openhim.org/) mediator for handling system integrations with DHIS2.
 
 ## 1. Dev Requirements
 
@@ -15,7 +15,8 @@ An [OpenHIM](http://openhim.org/) mediator for handling system integration betwe
 
 ## 2. Mediator Configuration
 
-This mediator is designed to work with eLMIS that send JSON Payloads while communicating with the THSCP via the HIM.
+This mediator is designed to work with multiple systems that do not require any message transformations or any data validation to the message payload to DHIS2.
+The mediator handles processing of DHIS2 response messages, in cases that DHIS2 responds with HTTP status code 200 while some data had failed during processing, before sending the response to HIM.
 
 ### 3 Configuration Parameters
 
@@ -137,5 +138,5 @@ To build and run the mediator after performing the above configurations, run the
 
 ```
   mvn clean package -DskipTests=true -e source:jar javadoc:jar
-  java -jar target/dhis2-mediator-elmis-<version>-jar-with-dependencies.jar
+  java -jar target/dhis2-mediator-<version>-jar-with-dependencies.jar
 ```
