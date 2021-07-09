@@ -107,8 +107,6 @@ public class Dhis2Orchestrator extends UntypedActor {
         }
         List<Pair<String, String>> params = new ArrayList<>();
 
-        host = scheme + "://" + host + ":" + portNumber + path;
-
         MediatorHTTPRequest forwardToDhis2Request = new MediatorHTTPRequest(
                 requestHandler, getSelf(), "Sending Data to DHIS2", "POST", scheme,
                 host, portNumber, path, message, headers, params
