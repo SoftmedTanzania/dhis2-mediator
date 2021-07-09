@@ -110,8 +110,8 @@ public class Dhis2Orchestrator extends UntypedActor {
         host = scheme + "://" + host + ":" + portNumber + path;
 
         MediatorHTTPRequest forwardToDhis2Request = new MediatorHTTPRequest(
-                requestHandler, getSelf(), "Sending Data to the DHIS2", "POST",
-                host, message, headers, params
+                requestHandler, getSelf(), "Sending Data to DHIS2", "POST", scheme,
+                host, portNumber, path, message, headers, params
         );
 
         ActorSelection httpConnector = getContext().actorSelection(config.userPathFor("http-connector"));
