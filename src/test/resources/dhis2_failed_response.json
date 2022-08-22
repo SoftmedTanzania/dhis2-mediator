@@ -1,1 +1,94 @@
-{"responseType":"ImportSummary","status":"WARNING","importOptions":{"idSchemes":{},"dryRun":false,"async":false,"importStrategy":"CREATE_AND_UPDATE","mergeMode":"REPLACE","reportMode":"FULL","skipExistingCheck":false,"sharing":false,"skipNotifications":false,"skipAudit":false,"datasetAllowsPeriods":false,"strictPeriods":false,"strictDataElements":false,"strictCategoryOptionCombos":false,"strictAttributeOptionCombos":false,"strictOrganisationUnits":false,"requireCategoryOptionCombo":false,"requireAttributeOptionCombo":false,"skipPatternValidation":false,"ignoreEmptyCollection":false,"force":false,"skipLastUpdated":false},"description":"Import process completed successfully","importCount":{"imported":0,"updated":9602,"ignored":356,"deleted":0},"conflicts":[{"object":"111574-0","value":"Organisation unit not found or not accessible"},{"object":"113841-1","value":"Organisation unit not found or not accessible"},{"object":"114405-4","value":"Organisation unit not found or not accessible"},{"object":".101168-3","value":"Organisation unit not found or not accessible"},{"object":"5","value":"Organisation unit not found or not accessible"},{"object":"4","value":"Organisation unit not found or not accessible"},{"object":"6","value":"Organisation unit not found or not accessible"},{"object":"114757-8","value":"Organisation unit not found or not accessible"},{"object":"113878-3","value":"Organisation unit not found or not accessible"},{"object":"113877-5","value":"Organisation unit not found or not accessible"},{"object":"114006-0","value":"Organisation unit not found or not accessible"},{"object":"0004","value":"Organisation unit not found or not accessible"},{"object":"114486-4","value":"Organisation unit not found or not accessible"},{"object":"113961-7","value":"Organisation unit not found or not accessible"}],"dataSetComplete":"false"}
+{
+  "responseType": "ImportSummary",
+  "status": "WARNING",
+  "importOptions": {
+    "idSchemes": {},
+    "dryRun": false,
+    "async": false,
+    "importStrategy": "CREATE_AND_UPDATE",
+    "mergeMode": "REPLACE",
+    "reportMode": "FULL",
+    "skipExistingCheck": false,
+    "sharing": false,
+    "skipNotifications": false,
+    "skipAudit": false,
+    "datasetAllowsPeriods": false,
+    "strictPeriods": false,
+    "strictDataElements": false,
+    "strictCategoryOptionCombos": false,
+    "strictAttributeOptionCombos": false,
+    "strictOrganisationUnits": false,
+    "requireCategoryOptionCombo": false,
+    "requireAttributeOptionCombo": false,
+    "skipPatternValidation": false,
+    "ignoreEmptyCollection": false,
+    "force": false,
+    "skipLastUpdated": false
+  },
+  "description": "Import process completed successfully",
+  "importCount": {
+    "imported": 0,
+    "updated": 9602,
+    "ignored": 356,
+    "deleted": 0
+  },
+  "conflicts": [
+    {
+      "object": "111574-0",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "113841-1",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "114405-4",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": ".101168-3",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "5",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "4",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "6",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "114757-8",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "113878-3",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "113877-5",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "114006-0",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "0004",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "114486-4",
+      "value": "Organisation unit not found or not accessible"
+    },
+    {
+      "object": "113961-7",
+      "value": "Organisation unit not found or not accessible"
+    }
+  ],
+  "dataSetComplete": "false"
+}
