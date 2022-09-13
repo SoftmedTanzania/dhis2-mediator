@@ -134,8 +134,11 @@ public class Dhis2Orchestrator extends UntypedActor {
                             (dhis2Response.getStatus().equalsIgnoreCase("error") ||
                                     dhis2Response.getStatus().equalsIgnoreCase("warning")) &&
                             !dhis2Response.getStatus().equalsIgnoreCase("ok") &&
-                            dhis2Response.getImportCount().getIgnored() > 0) || (((MediatorHTTPResponse) msg).getStatusCode() == HttpStatus.SC_OK &&
+                            dhis2Response.getImportCount().getIgnored() > 0) ||
+                            (((MediatorHTTPResponse) msg).getStatusCode() == HttpStatus.SC_OK &&
                             (dhis2Response.getStatus().equalsIgnoreCase("error"))) ||
+                            (((MediatorHTTPResponse) msg).getStatusCode() == HttpStatus.SC_OK &&
+                                    (dhis2Response.getStatus().equalsIgnoreCase("success")) && dhis2Response.getImportCount().getIgnored() > 0 )  ||
                             ((MediatorHTTPResponse) msg).getStatusCode() == HttpStatus.SC_BAD_REQUEST) {
                 FinishRequest responseFinishRequest = ((MediatorHTTPResponse) msg).toFinishRequest();
                 requestHandler.tell(new FinishRequest(responseFinishRequest.getResponse(), responseFinishRequest.getResponseHeaders(), HttpStatus.SC_BAD_REQUEST), getSelf());
